@@ -1,0 +1,36 @@
+{
+  "name": "ub",
+  "version": "0.0.0",
+  "title": "UIBase Assistant",
+  "homepage": "http://www.uibase.net",
+  "bugs": {
+    "url": "http://github.com/usablebytes/ub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usablebytes/ub.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/usablebytes/ub/raw/master/LICENSE.md"
+    }
+  ],
+  "main": "main.js",
+  "dependencies": {
+    "commander": "~2.1.0",
+    "gulp": "~3.4.0",
+    "yeoman-generator": "~0.16.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "~0.10.2"
+  },
+  "bin": {
+    "ub": "ub"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "preferGlobal": true
+}
