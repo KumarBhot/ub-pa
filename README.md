@@ -8,7 +8,7 @@ Usage
 -----
 
 ```bash
-~$ ub --helps
+~$ ub --help
 
   Usage: ub [options] [command]
 
