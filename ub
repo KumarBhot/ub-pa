@@ -1,6 +1,10 @@
 #!/usr/bin/env node
 'use strict';
 
-var cli = require('./cli');
+var cli = require('./cli').command;
 
-cli.start();
+cli.parse(process.argv);
+
+if (!cli.args.length) {
+    cli.help();
+}

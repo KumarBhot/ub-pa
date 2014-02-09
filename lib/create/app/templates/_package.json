@@ -1,0 +1,10 @@
+{
+    "name": "<%= name %>",
+    "version": "0.1.0",
+    "description": "Your application description",
+    "dependencies": {
+        "uibase": "git://github.com/UsableBytes/UiBase.git"
+    },
+    "devDependencies": {
+    }
+}

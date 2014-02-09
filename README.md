@@ -1,4 +1,4 @@
-Ub - Your UIBase Personal Assistant
+Ub - Your UiBase Personal Assistant
 ===================================
 
 Ub helps you with scaffolding, running tests and creating builds for applications built with
